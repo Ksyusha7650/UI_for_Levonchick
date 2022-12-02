@@ -1,0 +1,13 @@
+﻿<Window x:Class="CourseProject.WindowAbout"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseProject"
+        mc:Ignorable="d"
+        Title="About" Height="161" Width="251" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" ResizeMode="NoResize">
+    <Grid>
+        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="&#xD;&#xA;бла-бла-бла&#xA;&#xA;&#xA;&#xA;П. С. создано исключительно благодаря Ксении Рухловой" VerticalAlignment="Center" Width="232" Height="125" IsReadOnly="True" Background="{x:Null}"/>
+
+    </Grid>
+</Window>
